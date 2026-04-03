@@ -1,0 +1,11 @@
+state/
+logs/
+__pycache__/
+*.pyc
+.env
+projects/*/best/
+projects/*/experiments.jsonl
+projects/*/.git/
+.DS_Store
+/tmp/
+backups/

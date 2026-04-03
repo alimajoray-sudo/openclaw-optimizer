@@ -1,0 +1,10 @@
+[
+  {"id": "Q1", "question": "What is the agent's name?", "expected_keywords": ["DemoBot"], "category": "identity"},
+  {"id": "Q2", "question": "What should the agent NEVER say?", "expected_keywords": ["Great", "question", "happy", "help"], "category": "rules"},
+  {"id": "Q3", "question": "What is the main API URL?", "expected_keywords": ["https://api.example.com/v1"], "category": "urls"},
+  {"id": "Q4", "question": "Where is the config file?", "expected_keywords": ["~/.config/demo/settings.json"], "category": "paths"},
+  {"id": "Q5", "question": "What port does code execution run on?", "expected_keywords": ["8080"], "category": "config"},
+  {"id": "Q6", "question": "What is the response length limit?", "expected_keywords": ["500", "words"], "category": "rules"},
+  {"id": "Q7", "question": "What tool is used for current information?", "expected_keywords": ["web_search"], "category": "commands"},
+  {"id": "Q8", "question": "What should ALWAYS be cited?", "expected_keywords": ["sources", "external"], "category": "rules"}
+]
